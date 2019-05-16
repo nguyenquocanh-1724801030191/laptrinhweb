@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	 background-color:#E6E6E6;
+	 margin: 0px auto;
+	
+}
+
+header{
+	height:150px;
+	background-color:#FFF;
+}
+.top_hea{
+	height:35px;
+	padding:5px;
+}
+.hea_mn
+{
+	height:35px;
+	clear:both;
+	border-bottom:1px dashed #CCCCCC;
+}
+.hea_mn>ul
+{
+	list-style:none;
+	float:left;
+}
+.hotline
+{
+	float:right;
+	margin-right:50px;
+	padding:5px 50px;
+}
+.hea_mn>ul>li
+{
+	float:left;
+	padding:5px 50px;
+	border-right:#999 solid 0.7px;
+}
+.hea_mn>ul>li#last
+{
+	border-right:none;
+}
+.hea_mn>ul>li>a
+{
+	color:#000;
+	text-decoration:none;
+}
+
+.hea_mn>ul>li:hover a
+{
+	color:#F00;
+}
+.banner_min_wrap
+{
+	height:100px;
+	padding-left:70px;
+	padding-right:70px;
+}
+div#logo
+{
+	float:left;
+	
+}
+div#timkiem{
+	padding-top:20px;
+	font-size:24px;
+
+
+}
+div#timkiem input[type=text]
+{
+
+}
+.tim{
+	width:400px;
+	height:40px;
+}
+.kiem{
+	width:80px;
+	height:40px;
+}
+div#timkiem input[type=submit]
+{
+	background-color:#09F;
+	font-weight:700;
+}
+div#dn{
+	float:right;
+	padding-top:20px;
+}
+#dn>a{
+	text-decoration:none;
+	color:#000;
+	font-weight:800;
+}
+#dn>a:hover
+{
+	color: red;
+}
+.nav_mn{
+	height:55px;
+}
+
+        #menu ul{
+		height:55px;
+		background-color:#3C0;
+	    text-align:center;
+	
+        }
+        #menu ul li{
+		 font-size:20px;
+	     color:#9FC;
+	     display:inline-table;
+		 width:180px;
+		 height:50px;
+        }
+        #menu ul li a{
+		height:35px;
+		padding:10px;
+	    text-decoration:none;
+	    display:block;
+		color:#FFF;
+        }
+        #menu ul li a:hover
+        {
+			color:#C30;
+        }
+		#menu li ul a{
+		 background:green;
+ 		}
+ 
+ 
+		#menu li ul{	
+		 position:absolute;
+		 display:none;
+		 width:119px;
+ 		}
+ 
+		#menu li:hover ul{
+ 		display:block;
+        }
+		
+		.nd_web{
+	padding-left:70px;
+	padding-right:70px;
+	padding-top:15px;
+}
+.nd_muc{
+	background-color:#FFF;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:25px;
+}
+.tenmuc{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.tenmuc a{
+	text-decoration:none;
+	color:#F60;
+	font-size:18px;
+	font-weight:bold;
+}
+.anh
+{
+	margin-top:20px;
+	}
+.thôngtin_hkt{
+	background-color:#fff5e8;
+	color:#cf407d;
+	line-height:2.5;
+	padding:20px;
+	height:250px;
+	
+}
+.thôngtin_hkt a{
+	color:#3C0;
+	text-decoration:underline;
+}
+
+.hoatuoi{
+	background-color:#FFF;
+
+	margin-top:20px;
+	height:380px;
+}
+
+.hoatuoi>h4>a
+{
+	text-decoration:none;
+	font-size:20px;
+	color:#3C0;
+	padding-left:30px;
+
+
+}
+.hoatuoi .col
+		{
+			float:left ;
+			padding-left:10px;
+			margin:5px;
+			width: 255px;
+			height:320px;
+			line-height:20px;
+			border: 1px dashed #CCCCCC;
+		}
+
+.hoatuoi.col img {
+	float:left;
+	width:150px;
+	height:160px;
+	padding-top:10px;
+		}	
+a{	text-decoration:none;
+	color:#0F0;	
+}
+.gia{
+		color:#FF3300;
+}
+.datmua{
+	color:#00C;
+}
+
+
+footer{
+	height:295px;
+	background-color:#FFF;
+	margin-top:40px;
+	margin-bottom:40px;
+	padding-top:30px;
+
+}
+#vetrai{
+	float:left;
+	padding-left:70px;
+	font-size:20px;
+	height:180px;
+	width:300px;
+	line-height:1.5;
+	
+
+}
+#vephai{
+	float:right ;
+	padding-right:70px;
+	font-size:20px;
+	height:180px;
+	width:300px;
+}
+#vephai>a{
+	display: block;
+}
+#center{
+	text-align:center;
+	height:180px;
+	line-height:1.5;
+
+}
+.ttshop>h2{
+	padding:15px;
+}
+
+.diachi
+{	padding-left:70px;
+	padding-top:10px;
+	background-color:#0C0;
+	height:50px;
+	font-size:20px;
+	color:#FFF;
+}
+.kn{
+	color:#000;
+	text-decoration:none;
+}
+

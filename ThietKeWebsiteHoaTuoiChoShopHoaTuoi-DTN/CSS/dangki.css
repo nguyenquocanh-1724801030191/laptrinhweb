@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	
+	 margin: 0px auto;
+	 background-image:url(../images/hinh-nen-4k-4.jpg);
+	 background-size:100%;
+}
+.l{
+	width: 400px;
+	padding:0px 8px;
+	
+	background-color:#FCC;
+	border-radius:15px;
+	margin-top:100px;
+	margin-left:480px;
+	line-height:1.5;
+}
+.l>p
+{
+	background: linear-gradient(#a5b4c4, #206AB5, #206AB5);
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	text-align: center;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	height:25px;
+	padding-top:5px;
+	width: 100%;
+}
+.l>div> input[type=submit]
+{
+	color: aliceblue;
+	width: 100px;
+	background-color:#03C;
+	text-align: center;
+	height: 30px;
+}
+
+section>p
+{
+	
+	background: linear-gradient(#a5b4c4, #206AB5, #206AB5);
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	text-align: center;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	height:25px;
+	padding-top:5px;
+	width: 740px;
+}
